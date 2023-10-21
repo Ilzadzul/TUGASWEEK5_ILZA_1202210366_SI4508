@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas week 5</title>
+    <style>
+        body {
+            background-color: rgb(191, 143, 46);
+        }
+
+        .green-bg {
+            background-color: rgb(209, 69, 56);
+        }
+    </style>
+</head>
+<body>
+    <h1>Apa yang Dapat dilakukan JavaScript?</h1>
+    <p id="demo">Klik tombol berikut untuk mengubah konten.</p>
+    <button type="button" onclick="changeBackgroundColor()">Click Me!</button>
+
+    <script>
+        function changeBackgroundColor() {
+            document.body.classList.add("green-bg");
+        }
+    </script>
+</body>
+</html>
